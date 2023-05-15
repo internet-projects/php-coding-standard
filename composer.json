@@ -1,0 +1,15 @@
+{
+  "name": "internetprojects/php-coding-standard",
+  "description": "Internet Projects Coding Standard For PHP CS Fixer",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "friendsofphp/php-cs-fixer": "^3.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "InternetProjects\\PhpCodingStandard\\": "src"
+    }
+  }
+}

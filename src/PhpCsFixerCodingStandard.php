@@ -30,6 +30,7 @@ final class PhpCsFixerCodingStandard
                 'phpdoc_types_order' => ['sort_algorithm' => 'none', 'null_adjustment' => 'always_last'],
                 'increment_style' => ['style' => 'post'],
                 'native_function_invocation' => false,
+                'php_unit_internal_class' => false,
             ]);
     }
 }

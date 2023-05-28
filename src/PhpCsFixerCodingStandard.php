@@ -31,6 +31,7 @@ final class PhpCsFixerCodingStandard
                 'increment_style' => ['style' => 'post'],
                 'native_function_invocation' => false,
                 'php_unit_internal_class' => false,
+                'no_alternative_syntax' => ['fix_non_monolithic_code' => false],
             ]);
     }
 }

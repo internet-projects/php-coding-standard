@@ -32,6 +32,8 @@ final class PhpCsFixerCodingStandard
                 'native_function_invocation' => false,
                 'php_unit_internal_class' => false,
                 'no_alternative_syntax' => ['fix_non_monolithic_code' => false],
+                'echo_tag_syntax' => ['format' => 'short', 'shorten_simple_statements_only' => true],
+                'semicolon_after_instruction' => false,
             ]);
     }
 }

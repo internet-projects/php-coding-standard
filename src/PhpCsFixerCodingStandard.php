@@ -34,6 +34,7 @@ final class PhpCsFixerCodingStandard
                 'no_alternative_syntax' => ['fix_non_monolithic_code' => false],
                 'echo_tag_syntax' => ['format' => 'short', 'shorten_simple_statements_only' => true],
                 'semicolon_after_instruction' => false,
+                'date_time_immutable' => true
             ]);
     }
 }

@@ -36,6 +36,7 @@ final class PhpCsFixerCodingStandard
                 'semicolon_after_instruction' => false,
                 'date_time_immutable' => true,
                 'ordered_types' => false,
+                'fully_qualified_strict_types' => true,
                 ...$customRules
             ]);
     }

@@ -8,7 +8,7 @@ use PhpCsFixer\ConfigInterface;
 
 final class PhpCsFixerCodingStandard
 {
-    public static function applyTo(ConfigInterface $config): void
+    public static function applyTo(ConfigInterface $config, array $customRules = []): void
     {
         $config
             ->setRiskyAllowed(true)
@@ -35,7 +35,8 @@ final class PhpCsFixerCodingStandard
                 'echo_tag_syntax' => ['format' => 'short', 'shorten_simple_statements_only' => true],
                 'semicolon_after_instruction' => false,
                 'date_time_immutable' => true,
-                'ordered_types' => false
+                'ordered_types' => false,
+                ...$customRules
             ]);
     }
 }
